@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+🌐 Personal Portfolio — Joandesson Santos
 
-## Project info
+Bem-vindo ao repositório do meu portfólio pessoal!
+Este projeto apresenta minhas habilidades, experiências, projetos e formas de contato — tudo de maneira simples, rápida e elegante.
 
-**URL**: https://lovable.dev/projects/58597619-206a-4cc2-bba4-f2eaecfd9431
+🚀 Acesse o Projeto Online
 
-## How can I edit this code?
+Meu portfólio está hospedado e disponível em:
 
-There are several ways of editing your application.
+👉 https://joandesson-santos.vercel.app/
 
-**Use Lovable**
+🛠️ Tecnologias Utilizadas
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/58597619-206a-4cc2-bba4-f2eaecfd9431) and start prompting.
+Este projeto foi desenvolvido com foco em performance e escalabilidade:
 
-Changes made via Lovable will be committed automatically to this repo.
+⚡ Vite – Build rápido e eficiente
 
-**Use your preferred IDE**
+⚛️ React – Interface reativa e moderna
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🎨 Tailwind CSS – Estilização ágil e responsiva
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🧩 shadcn/ui – Componentes elegantes e reutilizáveis
 
-Follow these steps:
+📝 TypeScript – Tipagem estática e código mais seguro
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+🧑‍💻 Edição e Desenvolvimento
+
+
+💻 2. Localmente no seu computador
+# Clone o repositório
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Entre no diretório
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Instale as dependências
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Rode o ambiente de desenvolvimento
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+✏️ 3. Editando pelo GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Abra o arquivo desejado
 
-**Use GitHub Codespaces**
+Clique em Edit (ícone do lápis)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Edite, commit e pronto
 
-## What technologies are used for this project?
+🧑‍🚀 4. Via GitHub Codespaces
 
-This project is built with:
+Abra o repositório
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Clique em Code → Codespaces
 
-## How can I deploy this project?
+Crie um novo ambiente
 
-Simply open [Lovable](https://lovable.dev/projects/58597619-206a-4cc2-bba4-f2eaecfd9431) and click on Share -> Publish.
+Edite diretamente no navegador
 
-## Can I connect a custom domain to my Lovable project?
+🚀 Deploy
 
-Yes, you can!
+O deploy é gerenciado pela Vercel.
+Sempre que você realizar um push na branch principal, o deploy será atualizado automaticamente.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🔗 Deploy atual:
+https://joandesson-santos.vercel.app/
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🔗 Domínio Customizado
+
+Você pode adicionar um domínio próprio via Lovable:
+
+Project → Settings → Domains → Connect Domain
+
+📬 Contato
+
+Caso queira trocar uma ideia sobre projetos, oportunidades ou tecnologia:
+
+📧 Email: joandesson.dev@gmail.com
+
+
+💼 LinkedIn: adicione aqui se desejar
+📱 Instagram: adicione se quiser
+
+⭐ Gostou do projeto?
+
+Deixe uma estrela ⭐ no repositório!
+Isso ajuda a dar visibilidade ao meu trabalho.
