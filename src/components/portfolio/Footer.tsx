@@ -85,7 +85,7 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
             © {currentYear} • Feito com{" "}
             <Heart className="w-4 h-4 text-destructive fill-destructive" /> por{" "}
-            <span className="text-foreground font-medium">Seu Nome</span>
+            <span className="text-foreground font-medium">Joandesson Santos</span>
           </p>
         </motion.div>
       </div>
