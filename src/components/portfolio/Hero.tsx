@@ -47,9 +47,9 @@ const Hero = () => {
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
           >
             Olá, eu sou{" "}
-            <span className="text-gradient">Desenvolvedor</span>
+            <span className="text-gradient">Joandesson Santos</span>
             <br />
-            <span className="text-gradient-accent">Full Stack</span>
+            <span className="text-gradient-accent">Full Stack Developer</span>
           </motion.h1>
 
           {/* Description */}
