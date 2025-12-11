@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone, Send, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Phone, Send, Github, Linkedin, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -34,27 +34,27 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "seuemail@exemplo.com",
-      href: "mailto:seuemail@exemplo.com",
+      value: "joandesson.dev@gmail.com",
+      href: "mailto:joandesson.dev@gmail.com",
     },
     {
       icon: Phone,
       label: "Telefone",
-      value: "+55 (11) 99999-9999",
-      href: "tel:+5511999999999",
+      value: "+55 (94) 992430318",
+      href: "tel:+5594992430318",
     },
     {
       icon: MapPin,
       label: "Localização",
-      value: "São Paulo, Brasil",
+      value: "Parauapebas, PA",
       href: null,
     },
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+    { icon: Github, href: "https://github.com/JoandessonDev", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/joandesson-santos-9418b421a/", label: "LinkedIn" },
+    { icon: Instagram, href: "https://www.instagram.com/joandesson_rocha/", label: "Instagram" },
   ];
 
   return (
@@ -147,14 +147,10 @@ const Contact = () => {
 
             {/* Availability */}
             <div className="p-6 rounded-xl bg-gradient-card border border-border">
-              <div className="flex items-center gap-3 mb-3">
+              <div className="flex items-center gap-3">
                 <span className="w-3 h-3 rounded-full bg-primary animate-pulse" />
                 <span className="font-semibold">Disponível para projetos</span>
               </div>
-              <p className="text-muted-foreground text-sm">
-                Atualmente estou aberto a novas oportunidades de trabalho freelance
-                e colaborações em projetos interessantes.
-              </p>
             </div>
           </motion.div>
 

@@ -2,14 +2,8 @@ import { motion } from "framer-motion";
 import { Code2, Database, Server, Layers } from "lucide-react";
 
 const About = () => {
-  const stats = [
-    { value: "5+", label: "Anos de Experiência" },
-    { value: "50+", label: "Projetos Entregues" },
-    { value: "30+", label: "Clientes Satisfeitos" },
-    { value: "10+", label: "Tecnologias" },
-  ];
-
   const expertise = [
+
     {
       icon: Server,
       title: "Backend Development",
@@ -65,24 +59,6 @@ const About = () => {
               e eficiente.
             </p>
 
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              {stats.map((stat, index) => (
-                <motion.div
-                  key={stat.label}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="text-center p-4 rounded-xl bg-secondary/50 border border-border"
-                >
-                  <span className="text-2xl md:text-3xl font-bold text-gradient block mb-1">
-                    {stat.value}
-                  </span>
-                  <span className="text-xs md:text-sm text-muted-foreground">{stat.label}</span>
-                </motion.div>
-              ))}
-            </div>
           </motion.div>
 
           {/* Right column - Expertise */}
