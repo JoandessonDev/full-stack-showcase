@@ -46,10 +46,10 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
           >
-            Olá, eu sou{" "}
+            Olá, eu sou{" "}<br />
             <span className="text-gradient">Joandesson Santos</span>
             <br />
-            <span className="text-gradient-accent">Full Stack Developer</span>
+            <span className="text-gradient-accent text-5xl">Full Stack Developer</span>
           </motion.h1>
 
           {/* Description */}
